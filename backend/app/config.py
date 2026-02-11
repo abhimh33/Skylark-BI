@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     APP_NAME: str = "SkyLark BI Agent"
     DEBUG: bool = False
     LOG_LEVEL: str = "INFO"
+    ALLOWED_ORIGINS: str = ""  # comma-separated list of allowed CORS origins
     
     # API Rate Limiting
     MONDAY_RATE_LIMIT_PER_MINUTE: int = 60

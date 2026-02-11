@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: skylark-bi-api
+    runtime: python
+    region: singapore       # closest to monday.com apse2 region
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONDAY_API_KEY
+        sync: false
+      - key: MONDAY_API_URL
+        value: https://api.monday.com/v2
+      - key: DEALS_BOARD_ID
+        value: "5026564651"
+      - key: WORK_ORDERS_BOARD_ID
+        value: "5026564440"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: ALLOWED_ORIGINS
+        value: https://skylark-bi.vercel.app
+      - key: PYTHON_VERSION
+        value: "3.11.11"
