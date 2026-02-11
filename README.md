@@ -6,6 +6,8 @@ A production-ready **Business Intelligence AI Agent** that connects to live mond
 **Backend API**: [https://skylark-bi.onrender.com](https://skylark-bi.onrender.com)  
 **API Documentation**: [https://skylark-bi.onrender.com/docs](https://skylark-bi.onrender.com/docs)
 
+> **⚠️ Important Note:** This project uses the **Groq free-tier API** for LLM inference. If you encounter errors (e.g. `429 Too Many Requests` or slow responses), it is due to **Groq API rate limits being exceeded** — not a codebase or deployment issue. The code, architecture, and deployment are fully functional. Please wait a moment and retry.
+
 ---
 
 ## Demo
