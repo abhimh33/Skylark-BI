@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://skylark-bi.onrender.com';
 
 export async function askQuestion(question, includeRawData = false) {
   const response = await fetch(`${API_BASE_URL}/ask`, {
