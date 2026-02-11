@@ -8,6 +8,36 @@ A production-ready **Business Intelligence AI Agent** that connects to live mond
 
 ---
 
+## Demo
+
+<details>
+<summary>📊 Leadership Update</summary>
+
+![Leadership Update](demo/chat-leadership-update.png)
+</details>
+
+<details>
+<summary>💰 Pipeline Value</summary>
+
+![Pipeline Value](demo/chat-pipeline-value.png)
+</details>
+
+<details>
+<summary>📈 Sector Breakdown</summary>
+
+![Sector Breakdown](demo/chat-sector-breakdown.png)
+</details>
+
+<details>
+<summary>🏦 Collection Efficiency</summary>
+
+![Collection Efficiency](demo/chat-collection-efficiency.png)
+</details>
+
+🎬 **[Watch Demo Video](demo/skylark-bi-demo.mp4)**
+
+---
+
 ## Architecture
 
 ```
